@@ -1,0 +1,16 @@
+{
+  "prompts": [
+    {
+      "type": "input",
+      "promptText": "This part requires user input"
+    },
+    {
+      "type": "text",
+      "promptText": "This part has no user input"
+    },
+    {
+      "type": "input",
+      "promptText": "Last one with user input"
+    }
+  ]
+}
