@@ -1,6 +1,13 @@
 import PromptList from '@/components/PromptList';
 import { promises as fs } from 'fs';
 
+export async function generateStaticParams() {
+  const promptIds = ['prompt1', 'prompt2', 'prompt3']
+  return promptIds.map((id) => ({
+    promptId: id,
+  }))
+}
+
 export default async function Page({ params }: { params: { promptId: string } }) {
   if (!params.promptId) {
     return <>Prompt not found</>
