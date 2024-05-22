@@ -22,7 +22,6 @@ export default async function Page({ params }: { params: { promptId: string } })
 
   return (
     <div>
-      <h1 className='text-2xl'>{params.promptId}</h1>
       <PromptList prompts={data.prompts} />
     </div>
   );
