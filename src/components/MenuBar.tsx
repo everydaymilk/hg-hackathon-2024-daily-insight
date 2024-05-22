@@ -24,16 +24,16 @@ const Menu: React.FC<Props> = (props) => {
           Previous Prompts
         </Link>
         <Link
-          href="/"
+          href="/profile"
           className="flex items-center justify-center w-full bg-button-bg-default p-2 m-4 rounded-tr-[50px] transform h-10 shadow-md hover:h-12 transition-transform hover:bg-button-hover"
         >
-          Page 3
+          Profile
         </Link>
         <Link
-          href="/"
+          href="/settings"
           className="flex items-center justify-center w-full bg-button-bg-default p-2 m-4 rounded-tr-[50px] transform h-10 shadow-md hover:h-12 transition-transform hover:bg-button-hover"
         >
-          Page 4
+          Settings
         </Link>
       </div>
     </>
