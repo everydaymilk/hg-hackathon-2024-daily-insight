@@ -12,7 +12,7 @@ const Menu: React.FC<Props> = (props) => {
         {/* Added a hover option for the button to change color, please check if it works 
         added shadow property*/}
         <Link
-          href="/prompts/prompt1"
+          href="/prompts/prompt3"
           className="flex items-center justify-center w-full bg-button-bg-default p-2 m-4 rounded-tr-[50px] transform h-10 shadow-md hover:h-12 transition-transform hover:bg-button-hover"
         >
           Today

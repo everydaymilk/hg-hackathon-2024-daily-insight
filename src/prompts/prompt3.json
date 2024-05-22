@@ -1,0 +1,24 @@
+{
+  "prompts": [
+    {
+      "type": "input",
+      "promptText": "Describe a time when you felt the most happy."
+    },
+    {
+      "type": "input",
+      "promptText": "What about the situation made you feel happy?"
+    },
+    {
+      "type": "input",
+      "promptText": "How much of the situation was in your control?"
+    },
+    {
+      "type": "text",
+      "promptText": "It's good to take time to reflect on moments in our life that make us happy. If we can see how much of the situation was in our control, we can try to recreate aspects of that situation to make us happy again."
+    },
+    {
+      "type": "final",
+      "promptText": "As you go throughout your day, see if you can find moments that make you happy. Try to focus on how you're feeling at these moments, and see where the happiness is coming from."
+    }
+  ]
+}

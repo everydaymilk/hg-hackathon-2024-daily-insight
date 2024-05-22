@@ -2,15 +2,23 @@
   "prompts": [
     {
       "type": "input",
-      "promptText": "This part requires user input"
-    },
-    {
-      "type": "text",
-      "promptText": "This part has no user input"
+      "promptText": "Think of a time when someone said something that hurt you, but they didn't realize it. Describe the situation."
     },
     {
       "type": "input",
-      "promptText": "Last one with user input"
+      "promptText": "Put yourself in the perspective of the person who hurt you. Try and write out why they might have done that."
+    },
+    {
+      "type": "input",
+      "promptText": "Imagine you wanted to tell this person how they made you feel. What would you tell them?"
+    },
+    {
+      "type": "input",
+      "promptText": "How do you think they would feel/respond if you told them this?"
+    },
+    {
+      "type": "final",
+      "promptText": "When we feel hurt, we often focus too much on how we are affected by the situation. Sometimes it is good to take a step back and think about how others felt and acted in the situation. Were they aware of what they were doing? Were they trying to be malicious? In a lot of situations, it could be beneficial to communicate to the other person to let them know how they hurt you so they can avoid the situation in the future, and build a stronger relationship."
     }
   ]
 }

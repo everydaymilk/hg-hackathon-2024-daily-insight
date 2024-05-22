@@ -15,6 +15,8 @@ const Prompt: React.FC<Props> = (props) => {
   const [response, setResponse] = useState("");
   const textAreaRef = useRef<HTMLTextAreaElement>(null);
 
+  const hideNextButton = promptComplete || props.type === "final"
+
   // Hacky way to auto-resize text area height
   useEffect(() => {
     if (!textAreaRef.current) return;
@@ -49,7 +51,7 @@ const Prompt: React.FC<Props> = (props) => {
       <button
         ref={buttonRef}
         className={promptComplete || (response === "" && userResponseRequired) ? disabledButtonClass : enabledButtonClass}
-        hidden={promptComplete}
+        hidden={hideNextButton}
         disabled={response === "" && userResponseRequired}
         onClick={() => {
           setPromptComplete(true)

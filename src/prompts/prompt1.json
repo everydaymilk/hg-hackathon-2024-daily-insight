@@ -2,15 +2,11 @@
   "prompts": [
     {
       "type": "input",
-      "promptText": "This part requires user input"
+      "promptText": "Reflect on a time where you felt stressed or anxious. Write about your experience."
     },
     {
-      "type": "text",
-      "promptText": "This part has no user input"
-    },
-    {
-      "type": "input",
-      "promptText": "Last one with user input"
+      "type": "final",
+      "promptText": "When we feel stressed or anxious, we often focus too much on the self and use a lot of \"I\" or \"me\" words. When reflecting on these situations, it might help to think about how others might have felt in the situation. When you find yourself in a situation where you are stressed or anxious, try to take a step back and imagine how others might have felt in the situation."
     }
   ]
 }

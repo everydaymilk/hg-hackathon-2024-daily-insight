@@ -4,7 +4,7 @@ const nextConfig = {
     return [
       {
         source: '/',
-        destination: '/prompts/prompt1',
+        destination: '/prompts/prompt3',
         permanent: true
       }
     ]
