@@ -31,7 +31,7 @@ const Prompt: React.FC<Props> = (props) => {
 
   return (
     <>
-      <div className='text-2xl'>{props.promptText}</div>
+      <div className='text-2xl text-black'>{props.promptText}</div>
       <textarea
         ref={textAreaRef}
         rows={1}

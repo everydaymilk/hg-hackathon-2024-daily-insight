@@ -19,9 +19,9 @@ const config: Config = {
       colors: {
         "button-bg-default": "#96C7CE",
         "button-hover": "#8BD1D9",
-        background: "#F1EDEE",
+        "background": "#F1EDEE",
         "user-font": "#177E89",
-        screen: "#D9D9D9",
+        "screen": "#D9D9D9",
       },
       //Extend font and add fontFamily to include a custom font
       fontFamily: {
